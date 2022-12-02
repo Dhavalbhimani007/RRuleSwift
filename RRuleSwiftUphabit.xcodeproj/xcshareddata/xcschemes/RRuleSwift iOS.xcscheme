@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EB48D1361D641AD6001EE872"
+               BlueprintIdentifier = "D31B13961CA8E02E00D0B863"
                BuildableName = "RRuleSwift.framework"
-               BlueprintName = "RRuleSwift-watchOS"
-               ReferencedContainer = "container:RRuleSwift.xcodeproj">
+               BlueprintName = "RRuleSwiftUphabit-iOSUphabit"
+               ReferencedContainer = "container:RRuleSwiftUphabit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,8 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -45,14 +43,12 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EB48D1361D641AD6001EE872"
+            BlueprintIdentifier = "D31B13961CA8E02E00D0B863"
             BuildableName = "RRuleSwift.framework"
-            BlueprintName = "RRuleSwift-watchOS"
-            ReferencedContainer = "container:RRuleSwift.xcodeproj">
+            BlueprintName = "RRuleSwiftUphabit-iOSUphabit"
+            ReferencedContainer = "container:RRuleSwiftUphabit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -63,10 +59,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EB48D1361D641AD6001EE872"
+            BlueprintIdentifier = "D31B13961CA8E02E00D0B863"
             BuildableName = "RRuleSwift.framework"
-            BlueprintName = "RRuleSwift-watchOS"
-            ReferencedContainer = "container:RRuleSwift.xcodeproj">
+            BlueprintName = "RRuleSwiftUphabit-iOSUphabit"
+            ReferencedContainer = "container:RRuleSwiftUphabit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

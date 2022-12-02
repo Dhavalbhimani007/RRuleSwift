@@ -32,8 +32,8 @@
 
 /* Begin PBXFileReference section */
 		6BD694AA20D9C6F40008B4C6 /* DateFormatter+RRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+RRule.swift"; sourceTree = "<group>"; };
-		D31B13971CA8E02E00D0B863 /* RRuleSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RRuleSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB48D1371D641AD6001EE872 /* RRuleSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RRuleSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D31B13971CA8E02E00D0B863 /* RRuleSwiftUphabit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RRuleSwiftUphabit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB48D1371D641AD6001EE872 /* RRuleSwiftUphabit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RRuleSwiftUphabit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB48D1511D641D45001EE872 /* EKWeekday+RRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EKWeekday+RRule.swift"; sourceTree = "<group>"; };
 		EB48D1521D641D45001EE872 /* ExclusionDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExclusionDate.swift; sourceTree = "<group>"; };
 		EB48D1531D641D45001EE872 /* Iterators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Iterators.swift; sourceTree = "<group>"; };
@@ -79,8 +79,8 @@
 		D31B13981CA8E02E00D0B863 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D31B13971CA8E02E00D0B863 /* RRuleSwift.framework */,
-				EB48D1371D641AD6001EE872 /* RRuleSwift.framework */,
+				D31B13971CA8E02E00D0B863 /* RRuleSwiftUphabit.framework */,
+				EB48D1371D641AD6001EE872 /* RRuleSwiftUphabit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -145,9 +145,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		D31B13961CA8E02E00D0B863 /* RRuleSwift-iOS */ = {
+		D31B13961CA8E02E00D0B863 /* RRuleSwiftUphabit-iOSUphabit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D31B139F1CA8E02E00D0B863 /* Build configuration list for PBXNativeTarget "RRuleSwift-iOS" */;
+			buildConfigurationList = D31B139F1CA8E02E00D0B863 /* Build configuration list for PBXNativeTarget "RRuleSwiftUphabit-iOSUphabit" */;
 			buildPhases = (
 				D31B13921CA8E02E00D0B863 /* Sources */,
 				D31B13931CA8E02E00D0B863 /* Frameworks */,
@@ -158,14 +158,14 @@
 			);
 			dependencies = (
 			);
-			name = "RRuleSwift-iOS";
+			name = "RRuleSwiftUphabit-iOSUphabit";
 			productName = RRuleSwift;
-			productReference = D31B13971CA8E02E00D0B863 /* RRuleSwift.framework */;
+			productReference = D31B13971CA8E02E00D0B863 /* RRuleSwiftUphabit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		EB48D1361D641AD6001EE872 /* RRuleSwift-watchOS */ = {
+		EB48D1361D641AD6001EE872 /* RRuleSwiftUphabit-watchOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EB48D13C1D641AD6001EE872 /* Build configuration list for PBXNativeTarget "RRuleSwift-watchOS" */;
+			buildConfigurationList = EB48D13C1D641AD6001EE872 /* Build configuration list for PBXNativeTarget "RRuleSwiftUphabit-watchOS" */;
 			buildPhases = (
 				EB48D1321D641AD6001EE872 /* Sources */,
 				EB48D1331D641AD6001EE872 /* Frameworks */,
@@ -176,9 +176,9 @@
 			);
 			dependencies = (
 			);
-			name = "RRuleSwift-watchOS";
+			name = "RRuleSwiftUphabit-watchOS";
 			productName = "RRuleSwift watchOS";
-			productReference = EB48D1371D641AD6001EE872 /* RRuleSwift.framework */;
+			productReference = EB48D1371D641AD6001EE872 /* RRuleSwiftUphabit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -200,11 +200,12 @@
 					};
 				};
 			};
-			buildConfigurationList = D31B13911CA8E02E00D0B863 /* Build configuration list for PBXProject "RRuleSwift" */;
+			buildConfigurationList = D31B13911CA8E02E00D0B863 /* Build configuration list for PBXProject "RRuleSwiftUphabit" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = D31B138D1CA8E02E00D0B863;
@@ -212,8 +213,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D31B13961CA8E02E00D0B863 /* RRuleSwift-iOS */,
-				EB48D1361D641AD6001EE872 /* RRuleSwift-watchOS */,
+				D31B13961CA8E02E00D0B863 /* RRuleSwiftUphabit-iOSUphabit */,
+				EB48D1361D641AD6001EE872 /* RRuleSwiftUphabit-watchOS */,
 			);
 		};
 /* End PBXProject section */
@@ -397,7 +398,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Teambition.RRuleSwift-iOS";
-				PRODUCT_NAME = RRuleSwift;
+				PRODUCT_NAME = RRuleSwiftUphabit;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -418,7 +419,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Teambition.RRuleSwift-iOS";
-				PRODUCT_NAME = RRuleSwift;
+				PRODUCT_NAME = RRuleSwiftUphabit;
 				SKIP_INSTALL = YES;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.2;
@@ -439,7 +440,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Teambition.RRuleSwift-watchOS";
-				PRODUCT_NAME = RRuleSwift;
+				PRODUCT_NAME = RRuleSwiftUphabit;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift.h";
@@ -465,7 +466,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Teambition.RRuleSwift-watchOS";
-				PRODUCT_NAME = RRuleSwift;
+				PRODUCT_NAME = RRuleSwiftUphabit;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift.h";
@@ -479,7 +480,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D31B13911CA8E02E00D0B863 /* Build configuration list for PBXProject "RRuleSwift" */ = {
+		D31B13911CA8E02E00D0B863 /* Build configuration list for PBXProject "RRuleSwiftUphabit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D31B139D1CA8E02E00D0B863 /* Debug */,
@@ -488,7 +489,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D31B139F1CA8E02E00D0B863 /* Build configuration list for PBXNativeTarget "RRuleSwift-iOS" */ = {
+		D31B139F1CA8E02E00D0B863 /* Build configuration list for PBXNativeTarget "RRuleSwiftUphabit-iOSUphabit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D31B13A01CA8E02E00D0B863 /* Debug */,
@@ -497,7 +498,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EB48D13C1D641AD6001EE872 /* Build configuration list for PBXNativeTarget "RRuleSwift-watchOS" */ = {
+		EB48D13C1D641AD6001EE872 /* Build configuration list for PBXNativeTarget "RRuleSwiftUphabit-watchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EB48D13D1D641AD6001EE872 /* Debug */,
